@@ -6,6 +6,7 @@ package  com.cloudbees.mvntest.core;
  */
 public class Logger 
 {
+    private Object unused;
     public static void log(String msg)
     {
         System.out.println( msg );
